@@ -1,16 +1,17 @@
 * {
+font-family: Arial, Helvetica, sans-serif;
 padding: 0;
 margin:0;
 /*outline: 1px dotted green;*/
-font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
-	background: yellow;
+	background: #FFCC00;
 	font-size: .7em;
 	height: 30px;
 	line-height: 30px;
 	font-weight: 800;
+	padding-left: 10px;
 }
 
 h3 {
@@ -25,10 +26,12 @@ p {
 #container {
 	width: 1000px;
 	margin: 0 auto;
+	background: #F2F2F2;
 }
 
 	#header {
 		height: 72px;
+		background: -webkit-linear-gradient(top, #F2F2F2, white) ;
 	}
 
 		div.logo {
@@ -47,6 +50,7 @@ p {
 		background: #e8e8e8;
 		height: 29px;
 		border-top: 1px solid #e8e8e8;
+		margin-bottom: 20px;
 
 	}
 
@@ -56,21 +60,45 @@ p {
 			margin-top: -1px;
 		}
 
+			#navigation li {
+				display: inline-block;
+				font-size: .7em;
+				border-left: 1px solid white;
+				border-right: 1px solid white;
+				/*height: 30px;*/
+				line-height: 30px;
+				vertical-align: top;
+				/*margin-top: 10px;*/
+				margin-left: -5px;
+				padding: 0px 18px;
+			}
+
+				#navigation a {
+					text-decoration: none;
+					color: #575757;
+				}
+
 			#navigation a {
-				text-decoration: none;
+				/*text-decoration: none;
 				color: #575757;
 				padding: 6.2px 18px;
 				border-left: 1px solid white;
 				border-right: 1px solid white;
 				margin-left: -1px;
-				line-height: 100%;
+				line-height: 100%;*/
 			}
+
+
+
 				#navigation li {
-					display: inline-block;
+					/*display: inline-block;
 					font-size: .7em;
 					font-weight: 700;
 					margin-top: 8.7px;
 					height: 30px;
+					border-left: 1px solid white;
+					border-right: 1px solid white;
+					margin-left: -1px;*/
 				}
 
 	#content {
@@ -129,4 +157,43 @@ p {
 				display: inline-block;
 				line-height: 15px;
 				vertical-align: top;
+			}
+
+		#content-bottom {
+			/*height: 800px;*/
+		}
+
+			div.bottom4 {
+				display: inline-block;
+				vertical-align: top;
+				background: #FFF;
+				width: 210px;
+				height: 250px;
+			}
+
+				div.first, .second, .third {
+					margin-right: 20px;
+				}
+
+			div.bottom4 img {
+				width: 100%;
+			}
+
+			div.bottom4 h2 {
+
+			}
+
+			div.bottom4 p {
+				padding: 10px;
+			}
+
+			div.bottom4 span {
+				font-size: .7em;
+				background: #FFCC00;
+				border: 2px solid black;
+				margin-left: 100px;
+				height: 20px;
+				line-height: 20px;
+				display: inline-block;
+				padding: 0 5px;
 			}
